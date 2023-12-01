@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>F-dKom</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/tambah.css" rel="stylesheet" />
+  </head>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/logo.png" alt="Logo" width="125" height="40" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toogle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav nav-pills gap-lg-4">
+          <li class="nav-item">
+            <a class="nav-link" href="../halaman/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../halaman/tambah.html">Tambah</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../halaman/akun.html">Akun</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="form-tambah">
+    <div class="container">
+      <h1 class="title-form text-center">Danusan apa nih?</h1>
+
+      <form>
+        <div class="mb-4">
+          <label for="inputNamaPenjual" class="form-label">Nama Penjual</label>
+          <input type="text" class="form-control" id="inputNamaPenjual" />
+        </div>
+        <div class="mb-4">
+          <label for="inputNamaDanusan" class="form-label">Nama Danusan</label>
+          <input type="text" class="form-control" id="inputNamaDanusan" />
+        </div>
+        <div class="mb-4">
+          <label for="inputHarga" class="form-label">Harga</label>
+          <input type="text" class="form-control" id="inputHarga" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <label for="inputTanggal" class="form-label">Tanggal Danusan</label>
+          <input type="date" class="form-control" id="inputTanggal" />
+        </div>
+        <div class="mb-4">
+          <label for="inputTempatDanusan" class="form-label">Tempat Danusan</label>
+          <input type="text" class="form-control" id="inputTempatDanusan" />
+        </div>
+        <div class="mb-4">
+          <label for="inputFoto" class="form-label">Tambahkan Foto</label>
+          <input class="form-control" type="file" id="inputFoto" multiple />
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-dark btn-simpan">Simpan</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <body>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
